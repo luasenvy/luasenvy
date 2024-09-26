@@ -11,13 +11,13 @@
   <tr>
     <td valign="top" rowspan="2">
       <p rowspan="2" >
-        <img src="./metrics.plugin.isocalendar.fullyear.svg" />
-        <img src="./metrics.plugin.achievements.compact.svg" />
+        <img width="100%" src="./metrics.plugin.isocalendar.fullyear.svg" />
+        <img width="100%" src="./metrics.plugin.achievements.compact.svg" />
       </p>
     </td>
     <td valign="top">
       <p align="center">
-        <img src="./metrics.plugin.rss.svg" />
+        <img width="100%" src="./metrics.plugin.rss.svg" />
         <a href="https://www.luas.kr">Move To Blog</a>
       </p>
     </td>
