@@ -3,8 +3,8 @@
     <td colspan="2" valign="top">
       <p>
         <img align="right" src="./metrics.terminal.svg"/>
-        <img src="./metrics.plugin.traffic.svg" />
-        <img src="./metrics.plugin.sponsorships.svg" />
+        <img align="right" src="./metrics.plugin.traffic.svg" />
+        <img align="right" src="./metrics.plugin.sponsorships.svg" />
       </p>
     </td>
   </tr>
