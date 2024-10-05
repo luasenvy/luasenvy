@@ -12,6 +12,7 @@
     <td valign="top" rowspan="2">
       <p rowspan="2" >
         <img width="100%" src="./metrics.plugin.isocalendar.fullyear.svg" />
+        <img width="100%" src="./metrics.plugin.habits.charts.svg" />
         <img width="100%" src="./metrics.plugin.achievements.compact.svg" />
       </p>
     </td>
