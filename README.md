@@ -26,7 +26,7 @@
   <tr>
     <td valign="top">
       <p align="center">
-        <img src="./metrics.plugin.topics.svg" />
+        <img src="./metrics.plugin.starlists.languages.svg" />
       </p>
     </td>
   </tr>
