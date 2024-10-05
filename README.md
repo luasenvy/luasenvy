@@ -26,6 +26,7 @@
     <td valign="top">
       <p align="center">
         <img width="100%" src="./metrics.plugin.habits.charts.svg" />
+        <img width="100%" src="./metrics.plugin.starlists.languages.svg" />
       </p>
     </td>
   </tr>
