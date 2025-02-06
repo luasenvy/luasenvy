@@ -33,7 +33,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_rss: yes
-          plugin_rss_source: https://www.luas.kr/api/feed/rss2
+          plugin_rss_source: https://www.webmasters.kr/api/feed/rss
           plugin_rss_limit: 5
       - uses: lowlighter/metrics@latest
         with:
