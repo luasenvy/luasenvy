@@ -20,6 +20,15 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
+                                <div class="title">Claude Code로 시작하는 바이브 코딩</div>
+                                <div class="date">16 Aug 2025</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
                                 <div class="title">🐧GNU/Linux 🍥Debian on 🐭XFCE - XFCE 스크린샷 단축키로 쉽게 사용하기</div>
                                 <div class="date">4 Aug 2025</div>
                             </div>
@@ -49,15 +58,6 @@
                             <div class="infos">
                                 <div class="title">AI로 이미지 만들기 - FLUX 사용하기</div>
                                 <div class="date">4 Aug 2025</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">Next.js 15 활용 - 스트림으로 응답하기</div>
-                                <div class="date">2 Aug 2025</div>
                             </div>
                         </div>
                     </section>
