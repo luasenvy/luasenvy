@@ -14,20 +14,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           template: terminal
           filename: metrics.terminal.svg
           base: header, metadata
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.rss.svg
           token: NOT_NEEDED
@@ -35,13 +35,13 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://www.webmasters.kr/api/feed/rss
           plugin_rss_limit: 5
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_traffic: yes
-      - uses: stalomeow/metrics@projects-v2 #lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -52,13 +52,13 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.sponsorships.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_sponsorships: yes
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -66,14 +66,14 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.topics.svg
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 12
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -82,7 +82,7 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: Asia/Seoul
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           filename: metrics.plugin.starlists.languages.svg
           token: NOT_NEEDED
