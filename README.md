@@ -1,21 +1,13 @@
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td rowspan="2" valign="top" width="50%">
       <p>
-        <img align="right" src="./metrics.terminal.svg"/>
-        <img align="right" src="./metrics.plugin.traffic.svg" />
-        <img align="right" src="./metrics.plugin.sponsorships.svg" />
+        <img width="100%" src="./metrics.terminal.svg"/>
       </p>
+      <p>Hello, World! :)</p>
+      <p>I hope you find the information provided useful. 😉</p>
     </td>
-  </tr>
-  <tr>
-    <td valign="top" rowspan="2">
-      <p rowspan="2" >
-        <img width="100%" src="./metrics.plugin.isocalendar.fullyear.svg" />
-        <img width="100%" src="./metrics.plugin.achievements.compact.svg" />
-      </p>
-    </td>
-    <td valign="top">
+    <td valign="top" width="50%">
       <p align="center">
         <img width="100%" src="./metrics.plugin.rss.svg" />
         <a href="https://www.luas.kr">Move To Blog</a>
@@ -23,16 +15,9 @@
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <p align="center">
-        <img width="100%" src="./metrics.plugin.habits.charts.svg" />
-        <img width="100%" src="./metrics.plugin.starlists.languages.svg" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <p align="center">
+    <td valign="top" width="50%">
+      <p>
+        <img width="100%" src="./metrics.plugin.achievements.compact.svg" />
         <img width="100%" src="./metrics.plugin.reactions.svg" />
       </p>
     </td>
