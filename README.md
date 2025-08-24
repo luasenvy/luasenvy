@@ -5,7 +5,7 @@
         <img width="100%" src="./metrics.terminal.svg"/>
       </p>
       <p>Hello, World! :)</p>
-      <p>I hope you find the information provided useful. 😉</p>
+      <p>I hope the information provided is useful to you. 😉</p>
     </td>
     <td valign="top" width="50%">
       <p align="center">
