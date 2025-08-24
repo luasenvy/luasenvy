@@ -22,25 +22,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
       - uses: gh-metrics/metrics@master
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          token: ${{ secrets.METRICS_TOKEN }}
-      - uses: gh-metrics/metrics@master
-        with:
           filename: metrics.plugin.rss.svg
           token: NOT_NEEDED
           base: ""
           plugin_rss: yes
           plugin_rss_source: https://www.webmasters.kr/api/feed/rss
           plugin_rss_limit: 5
-      - uses: gh-metrics/metrics@master
-        with:
-          filename: metrics.plugin.traffic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          plugin_traffic: yes
       - uses: gh-metrics/metrics@master
         with:
           filename: metrics.plugin.achievements.compact.svg
@@ -54,42 +41,9 @@ jobs:
           plugin_achievements_threshold: X
       - uses: gh-metrics/metrics@master
         with:
-          filename: metrics.plugin.sponsorships.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_sponsorships: yes
-      - uses: gh-metrics/metrics@master
-        with:
           filename: metrics.plugin.reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
-      - uses: gh-metrics/metrics@master
-        with:
-          filename: metrics.plugin.topics.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 12
-      - uses: gh-metrics/metrics@master
-        with:
-          filename: metrics.plugin.habits.charts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          config_timezone: Asia/Seoul
-      - uses: gh-metrics/metrics@master
-        with:
-          filename: metrics.plugin.starlists.languages.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 8
-          plugin_starlists_limit_repositories: 0
-          plugin_starlists_only: Awesome
-
