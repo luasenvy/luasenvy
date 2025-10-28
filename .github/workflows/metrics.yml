@@ -14,21 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
-        with:
-          template: terminal
-          filename: metrics.terminal.svg
-          base: header, metadata
-          token: ${{ secrets.METRICS_TOKEN }}
-      - uses: gh-metrics/metrics@master
-        with:
-          filename: metrics.plugin.rss.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_rss: yes
-          plugin_rss_source: https://www.modak.wiki/api/feed/rss
-          plugin_rss_limit: 5
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -39,7 +25,14 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
-      - uses: gh-metrics/metrics@master
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+      - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
